@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: darkgrey;
+            margin: 0px;
+
+        }
+        
+        header{
+            background-color: chartreuse;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(107, 201, 13);
+            padding: 3px;
+            margin: -10px;
+            box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.466);
+        }
+
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            color: aliceblue;
+            margin-right: 30px;
+            
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            font-size: 17px;
+        }
+
+
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        section#assuntos{
+            font-weight: bold;
+            padding: 10px;
+            
+        }
+
+
+        
+        section#noticias{
+            background-color: rgb(219, 253, 212);
+            padding: 10px;  
+            box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.466);
+        }
+
+        article > aside{
+            background-color: rgb(204, 187, 167);
+        }
+
+       footer{
+        background-color: black;
+        color: #65df14;
+        padding: 10px;
+        text-align: center;
+        margin: 0px;
+       }
+
+     
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">INÍCIO</a>
+            <a href="#">LOJA</a>
+            <a href="#">SOBRE NÓS</a>
+            <a href="#">BLOG</a>
+            <a href="#">CONTATO</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <section id="assuntos"> Brasil em Foco </section>
+            <section id="noticias">
+                <article>
+                    <h2>Últimas Notícias do Brasil</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi in adipisci distinctio nobis voluptatum sint error eaque totam repellendus? Blanditiis aperiam alias repudiandae et ea dolor provident debitis, optio tempora?</p>
+                    <aside>Artigo escrito por: Fellype Lessa</aside>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por: Fellype Designer</p>
+    </footer>
+</body>
+</html>
